@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Computer Plays:"
-        android:textSize="30dip"
+        android:textSize="20dip"
         android:gravity="center"
         android:id="@+id/simpleText"
         />
@@ -23,20 +23,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageComputer"
         android:gravity="center"
-        android:layout_below="@+id/simpleText"
+        android:layout_toRightOf="@+id/simpleText"
         />
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageWinLoseDraw"
         android:gravity="center"
-        android:layout_below="@+id/imageComputer"
+        android:layout_toLeftOf="@+id/simpleText"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textResult"
-        android:textSize="45dip"
+        android:textSize="20dip"
         android:gravity="center"
         android:layout_below="@+id/imageWinLoseDraw"
         android:paddingTop="20dip"
@@ -48,6 +48,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnAgain"
         android:text="@string/play_again"
+        android:textSize="20dip"
         android:layout_alignParentBottom="true"
         />
 

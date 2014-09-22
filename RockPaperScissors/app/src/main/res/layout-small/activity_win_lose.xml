@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Computer Plays:"
-        android:textSize="30dip"
+        android:textSize="20dip"
         android:gravity="center"
         android:id="@+id/simpleText"
         />
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textResult"
-        android:textSize="45dip"
+        android:textSize="20dip"
         android:gravity="center"
         android:layout_below="@+id/imageWinLoseDraw"
         android:paddingTop="20dip"

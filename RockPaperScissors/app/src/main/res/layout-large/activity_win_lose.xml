@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Computer Plays:"
-        android:textSize="30dip"
+        android:textSize="45dip"
         android:gravity="center"
         android:id="@+id/simpleText"
         />
@@ -48,6 +48,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnAgain"
         android:text="@string/play_again"
+        android:textSize="45dip"
         android:layout_alignParentBottom="true"
         />
 

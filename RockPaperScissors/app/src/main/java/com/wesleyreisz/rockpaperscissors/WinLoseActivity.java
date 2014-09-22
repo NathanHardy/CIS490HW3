@@ -49,6 +49,16 @@ public class WinLoseActivity extends Activity {
         TextView textView = (TextView)findViewById(R.id.textResult);
         textView.setText(result);
 
+        // set second picture
+        ImageView imageWinLoseDraw = (ImageView)findViewById(R.id.imageWinLoseDraw);
+        if(result=="Player 1 Wins") {
+            imageWinLoseDraw.setImageResource(R.drawable.win);
+        } else if(result=="Computer Wins") {
+            imageWinLoseDraw.setImageResource(R.drawable.lose);
+        } else if(result=="Tie") {
+            imageWinLoseDraw.setImageResource(R.drawable.draw);
+        }
+
         Button button = (Button) findViewById(R.id.btnAgain);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
